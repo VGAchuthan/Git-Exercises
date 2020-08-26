@@ -1,0 +1,86 @@
+body{
+	margin : 0px;
+	padding : 0px;
+}
+*{
+	margin : 0px;
+	padding : 0px;
+}
+.Text-black{
+	color : black;
+}
+.Header{
+	text-align : center;
+	font-size : 42px;
+	background-color : #33cc33;
+	
+}
+.Form-wrapper{
+	top : 50%;
+	left : 50%;
+	width: 600px;
+	height : 400px;
+	z-index : 1;
+	border : 2px solid ;
+	position : fixed;
+	transform : translate(-50%, -50%);
+}
+.Form-inline{
+	display : block;
+	margin : 20px 2px;
+}
+.Form-inline > div{
+	Display : inline-block;
+}
+.Label-wrapper{
+	text-align : Right;
+	width : 30%;
+	font-size : 32px;
+	height : 50px;
+	position : inline-block;
+	font-weight : bold;
+	
+}
+.Input-wrapper{
+	width : 100px;
+	height : 50px;
+	position : inline-block;
+}
+.Input-wrapper input{
+	width : 350px;
+	height : 40px;
+	margin : 4px 10px;
+	font-size : 28px;
+	border : 2px solid;
+}
+#result{
+	background-color : #f2f2f2;
+}
+
+.Button-wrapper{
+	display : inline;
+}
+
+.Button-wrapper div{
+	display : inline-block;
+}
+.Button-arithmetic{
+	width : 130px;
+	height : 45px;
+	font-size : 24px;
+	color : white;
+	font-weight: bold;
+	background-color : #00e64d;
+	border : 2px solid #006622;
+	margin : 10px 8px;
+}
+.Button-reset{
+	width : 580px;
+	height : 45px;
+	font-size : 24px;
+	color : white;
+	font-weight: bold;
+	background-color : #00e64d;
+	border : 2px solid #006622;
+	margin : 10px 8px;
+}

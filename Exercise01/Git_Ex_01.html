@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Git Exercise 01 </title>
+<link rel="stylesheet" type="text/css" href="Git_Ex_01.css">
+</head>
+<body>
+	<div class="Header">
+		<p> Calculator </p>
+	</div>
+	<div class="Form-wrapper">
+<!------------------------------------------ NUM 1 Start-->	
+		<div class="Form-inline">
+			<div class= "Label-wrapper">
+				<label class = "Text-black" id="lbl_num1" name="lbl_num1" >NUM 1 :</label>
+			</div>
+			<div class= "Input-wrapper">
+				<input type="text" id="num1" name="num1"/>
+			</div>
+		</div>
+<!------------------------------------------ NUM 1 End-->	
+
+<!------------------------------------------ NUM 2 Start-->	
+		<div class="Form-inline">
+			<div class= "Label-wrapper">
+				<label class = "Text-black" id="lbl_num2" name="lbl_num2" >NUM 2 :</label>
+			</div>
+			<div class= "Input-wrapper">
+				<input type="text" id="num2" name="num2"/>
+			</div>
+		</div>
+<!------------------------------------------ NUM 2 End-->	
+
+<!------------------------------------------ Result Start-->	
+		<div class="Form-inline">
+			<div class= "Label-wrapper">
+				<label class = "Text-black" id="lbl_result" name="lbl_result" >RESULT :</label>
+			</div>
+			<div class= "Input-wrapper">
+				<input type="text" id="result" name="result" readonly />
+			</div>
+		</div>
+<!------------------------------------------ Result End-->	
+
+<!------------------------------------------ Buttons Start-->	
+		<div class="Button-wrapper">
+			<div><!-- Add Button-->
+				<input class="Button-arithmetic" type="button" id="btn_add" name="btn_add" value="Add"/>
+			</div>
+			<div > <!-- Sub Button-->
+				<input  class="Button-arithmetic" type="button" id="btn_sub" name="btn_div" value="Sub"/>
+			</div>
+			<div> <!-- Mul Button-->
+				<input class="Button-arithmetic" type="button" id="btn_mul" name="btn_div" value="Mul"/>
+			</div>
+			<div ><!-- Div Button-->
+				<input class="Button-arithmetic" type="button" id="btn_div" name="btn_div" value="Div"/>
+			</div>
+		</div>
+<!------------------------------------------ Buttons End-->	
+
+<!------------------------------------------ Reset Button start-->
+
+		<div>
+			<input class="Button-reset" type="button" id="btn_reset" name="btn_reset" value="Reset"/>
+		</div>
+<!------------------------------------------ Reset Button End-->	
+	</div>
+	<script src = "Git_Ex_01.js"></script>
+</body>
+</html>
