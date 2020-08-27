@@ -56,8 +56,7 @@
 .Button-wrapper{
 	display : inline;
 }
-
-.Button-wrapper div{
+.Button-wrapper  .Button{
 	display : inline-block;
 }
 .Button-arithmetic{
