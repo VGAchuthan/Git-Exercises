@@ -25,7 +25,7 @@
 	display : block;
 	margin : 20px 2px;
 }
-.Form-inline > div{
+.Form-inline  > .Label-wrapper, .Input-wrapper{
 	Display : inline-block;
 }
 .Label-wrapper{
@@ -41,7 +41,7 @@
 	height : 50px;
 	position : inline-block;
 }
-.Input-wrapper input{
+.Input-wrapper > .Input-text, .Input-result{
 	width : 350px;
 	height : 40px;
 	margin : 4px 10px;
